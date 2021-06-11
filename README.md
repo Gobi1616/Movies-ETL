@@ -30,7 +30,7 @@ Kaggle data is used in the Movies-ETL. The MovieLens dataset of over 20 million 
 -   Again, we consolidated the redundant data, removed the duplicates, formatted and grouped the data.
 -   The Kaggle and rating data were then merged with the Wikipedia movies DataFrame.
 
-## Extract and Transform the Kaggle and rating data
+## Load the data to a PostgreSQL Movie Database
 
 -   The function in its final step connects to the database by sqlalchemy library and to_sql method.
 -   Complete ETL process can be executed with a single function extract_transform_load call.
