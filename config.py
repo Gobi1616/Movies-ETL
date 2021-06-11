@@ -1,0 +1,1 @@
+db_password = 'Sinugobi@2021'
